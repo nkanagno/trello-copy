@@ -1,0 +1,48 @@
+header,
+section {
+    float: left;
+    margin-left: 8%;
+    margin-top: 6%;
+    text-align: center;
+    
+}
+header p{
+    font-size: 24px;
+    text-align: center;
+    max-width: 800px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+header a{
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(7, 112, 169);
+    transition: 0.5s;
+}
+
+header a:hover{
+    background-color: rgb(6, 127, 192);
+    transition: 0.5s;
+}
+
+
+
+main div#Home-img {
+    background-image: ('../assets/home-dark.webp');
+    width: 800px;
+    height: 800px;
+    float: left;
+    transition: 0.4s;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    /* Ensures the background image covers the entire div */
+    background-position: center;
+    /* Centers the background image within the div */
+}

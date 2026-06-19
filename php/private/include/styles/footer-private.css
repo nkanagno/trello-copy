@@ -1,0 +1,11 @@
+
+/*^ Web Footer ^*/
+footer {
+    background-color: rgb(9, 30, 66);
+    color: white;
+    text-align: center;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}

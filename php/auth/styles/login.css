@@ -1,0 +1,88 @@
+body {
+    font-family: Arial;
+    background-color: rgb(211, 236, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #020202;
+}
+
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-container h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+.wrong_pass{
+    color: red;
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;   
+}
+
+.insert {
+    color: rgb(64, 255, 0);
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#goback{
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    position: absolute;
+    float: right;
+    margin: 10px;
+    bottom: 0;
+    background-color: #555;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#goback:hover{
+    background-color:  #777;
+}

@@ -1,0 +1,20 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding-bottom: 30px;
+    background-color: rgb(211, 236, 245);
+    color: #020202;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+
+
+header,
+section {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 60px;
+}
